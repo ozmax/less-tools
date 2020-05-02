@@ -1,0 +1,8 @@
+{
+  "name": "less-tools",
+  "version": "0.0.0",
+  "description": "Basic css snippets usually used in every project.",
+  "repository": "git@github.com:ozmax/less-tools.git",
+  "author": "Georgios A. Tsakalos me@ozmax.eu",
+  "license": "MIT"
+}

@@ -1,0 +1,22 @@
+.reset-list {
+	margin: 0;
+	padding: 0;
+
+	> li {
+		list-style: none;
+	}
+}
+
+.init-pseudo {
+	display: block;
+	content: "";
+}
+
+.clear {
+	&::after {
+		.init-pseudo;
+
+		display: table;
+		clear: both;
+	}
+}
